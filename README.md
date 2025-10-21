@@ -19,6 +19,10 @@ All data and widgets are managed locally within the app without a backend.
 
 ---
 
+### How to see the output without the code
+-just click this link (also in About section), it will show the output
+"https://front-end-dashboard-ucjg.vercel.app/"
+
 ### Installation and Setup
 
 Follow these steps to run the project locally 👇  
@@ -31,7 +35,3 @@ npm install
 ---
 ### How to Run the app
 npm start
-
-### How to see the output without the code
--just click this link (also in aAbout section), it will show the output
-"https://front-end-dashboard-ucjg.vercel.app/"

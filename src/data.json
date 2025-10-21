@@ -1,0 +1,21 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        { "id": 1, "title": "Server Status", "content": "All servers running fine" },
+        { "id": 2, "title": "CPU Usage", "content": "Average CPU usage 68%" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Network Overview",
+      "widgets": [
+        { "id": 3, "title": "Router Health", "content": "All routers online" },
+        { "id": 4, "title": "Traffic Stats", "content": "500GB data transferred" }
+      ]
+    }
+    
+  ]
+}

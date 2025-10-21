@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f7fc;
+  font-family: "Poppins", sans-serif;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+.add-widget {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.add-widget select,
+.add-widget input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+  font-size: 15px;
+}
+
+.add-widget button {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.add-widget button:hover {
+  background: #357ac8;
+}
+
+.category {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+}
+
+.category h2 {
+  margin-bottom: 20px;
+  color: #2d2d2d;
+}
+
+.widget-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: start;
+}
+
+/* Circle widgets */
+.widget-circle {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #d9e6ff, #ffffff);
+  box-shadow: 6px 6px 12px #c5d3f1, -6px -6px 12px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.widget-circle:hover {
+  transform: scale(1.05);
+}
+
+.widget-content h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #2e2e2e;
+}
+
+.widget-content p {
+  font-size: 13px;
+  color: #555;
+  margin-top: 6px;
+}
+
+.remove-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #ff6b6b;
+  border: none;
+  color: #fff;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.remove-btn:hover {
+  background: #ff4c4c;
+}
+
+.no-widget {
+  color: #999;
+  font-style: italic;
+  margin-left: 10px;
+}
